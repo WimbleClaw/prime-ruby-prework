@@ -5,5 +5,5 @@ def prime?(n)
       break
     end
   end
-  return "false"
+  return false
  end

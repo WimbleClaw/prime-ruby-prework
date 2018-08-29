@@ -1,3 +1,3 @@
-def prime?(number)
-  prine?(each_number)
+def prime?(n)
+  (2..n/2).each {|i| n % i == 0}
 end

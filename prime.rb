@@ -4,9 +4,6 @@ def prime?(n)
       if i * 2 == n
         return false
         break
-      else i * 2 == n
-        return false
-        break
       end
     end
     return true

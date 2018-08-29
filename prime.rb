@@ -1,5 +1,5 @@
 def prime?(n)
-  (1..n).each do |i| 
+  (0..n).each do |i| 
     if i * 2 == n
       return false
       break

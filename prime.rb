@@ -1,3 +1,9 @@
 def prime?(n)
-  (2..n/2).each {|i| n % i == 0}
-end
+  (1..n).each do |i| 
+    if i * 2 == n
+      return true
+      break
+    end
+  end
+  return "false"
+ end

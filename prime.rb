@@ -1,8 +1,8 @@
 def prime?(n)
   if n > 1 
     (0..n).each do |i| 
-      if i * 2 == n
-        return false
+      if i / 2 == 0
+        return truue
         break
       end
     end
